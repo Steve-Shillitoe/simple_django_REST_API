@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from base.models import item
+from base.models import Item
 
 class ItemSerializer(serializers.ModelSerializer):
     class Meta:
-        model = item
+        model = Item
         fields = '__all__'
 
